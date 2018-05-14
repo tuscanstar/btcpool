@@ -1,9 +1,9 @@
-Docker for Bitcoin-abc v0.16.0
+Docker for Bitcoin-abc v0.17.1
 ============================
 
 * OS: `Ubuntu 14.04 LTS`, `Ubuntu 16.04 LTS`
 * Docker Image OS: `Ubuntu 16.04 LTS`
-* Bitcoin ABC: `v0.16.0`
+* Bitcoin ABC: `v0.17.1`
 
 ## Install Docker
 
@@ -22,14 +22,14 @@ service docker status
 cd /work
 
 git clone https://github.com/btccom/btcpool.git
-cd btcpool/docker/bitcoin-abc/v0.16.0
+cd btcpool/docker/bitcoin-abc/v0.17.1
 
 # If your server is in China, please check "Dockerfile" and uncomment some lines.
 # If you want to enable testnet, please uncomment several lines behind `# service for testnet`
 
 # build
-docker build -t bitcoin-abc:0.16.0 .
-# docker build --no-cache -t bitcoin-abc:0.16.0 .
+docker build -t bitcoin-abc:0.17.1 .
+# docker build --no-cache -t bitcoin-abc:0.17.1 .
 
 # mkdir for bitcoin-abc
 mkdir -p /work/bitcoin-abc
@@ -63,8 +63,8 @@ blockmaxsize=8000000
 
 ```
 # start docker
-docker run -it -v /work/bitcoin-abc:/root/.bitcoin --name bitcoin-abc -p 8333:8333 -p 8332:8332 -p 8331:8331 --restart always -d bitcoin-abc:0.16.0
-#docker run -it -v /work/bitcoin-abc:/root/.bitcoin --name bitcoin-abc -p 8333:8333 -p 8332:8332 -p 8331:8331 -p 18333:18333 -p 18332:18332 -p 18331:18331 --restart always -d bitcoin-abc:0.16.0
+docker run -it -v /work/bitcoin-abc:/root/.bitcoin --name bitcoin-abc -p 8333:8333 -p 8332:8332 -p 8331:8331 --restart always -d bitcoin-abc:0.17.1
+#docker run -it -v /work/bitcoin-abc:/root/.bitcoin --name bitcoin-abc -p 8333:8333 -p 8332:8332 -p 8331:8331 -p 18333:18333 -p 18332:18332 -p 18331:18331 --restart always -d bitcoin-abc:0.17.1
 
 # login
 docker exec -it bitcoin-abc /bin/bash
