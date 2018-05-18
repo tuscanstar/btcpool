@@ -1,20 +1,17 @@
-BTCPool for BTC, BCH, UBTC & SBTC
+Siyana Pool for BTC
 ==================
 
-BTCPool is backend system of [https://pool.btc.com](https://pool.btc.com).
+Siyana Pool is backend system of [https://pool.siyana.io](https://pool.siyana.io).
 
-> This is a version of BTCPool that supports more SHA256 blockchains. Check the **single-blockchain** version at [legacy](https://github.com/btccom/btcpool/tree/legacy) branch.
+> This is a version of Siyana Pool that supports more SHA256 blockchains. Check the **single-blockchain** version at [legacy](https://github.com/btccom/btcpool/tree/legacy) branch.
 
 The pool backend support 4 blockchains at current:
 * [Bitcoin](https://bitcoin.org/)
-* [BitcoinCash](https://bitcoincash.org/)
-* [UnitedBitcoin](https://ub.com/)
-* [SuperBitcoin](http://supersmartbitcoin.com/)
 
 Note: The project is still a testbed and work in progress, all things could be changed.
 
 See Also:
-* [BTCPool's modules that writed by golang](https://github.com/btccom/btcpool-go-modules)
+* [Siyana Pool's modules that writed by golang](https://github.com/btccom/btcpool-go-modules)
 
 ## Architecture (need update)
 
