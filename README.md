@@ -47,4 +47,4 @@ BTCPool is released under the terms of the MIT license. See [LICENSE](LICENSE) f
 
 Welcome aboard!
 
-BTC.COM Team.
+Siyana Pool Team.
