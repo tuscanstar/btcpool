@@ -5,7 +5,7 @@ Siyana Pool is backend system of [https://pool.siyana.io](https://pool.siyana.io
 
 > This is a version of Siyana Pool that supports more SHA256 blockchains. Check the **single-blockchain** version at [legacy](https://github.com/btccom/btcpool/tree/legacy) branch.
 
-The pool backend support 4 blockchains at current:
+The pool backend support 1 blockchain at current:
 * [Bitcoin](https://bitcoin.org/)
 
 Note: The project is still a testbed and work in progress, all things could be changed.
